@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44D6B0C4159E55B900AC91CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D6B0C3159E55B900AC91CA /* UIKit.framework */; };
+		44D6B0C6159E55B900AC91CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D6B0C5159E55B900AC91CA /* Foundation.framework */; };
+		44D6B0C8159E55B900AC91CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D6B0C7159E55B900AC91CA /* CoreGraphics.framework */; };
+		44D6B0CE159E55B900AC91CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B0CC159E55B900AC91CA /* InfoPlist.strings */; };
+		44D6B0D0159E55B900AC91CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6B0CF159E55B900AC91CA /* main.m */; };
+		44D6B0D4159E55B900AC91CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6B0D3159E55B900AC91CA /* AppDelegate.m */; };
+		44D6B0D7159E55B900AC91CA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B0D5159E55B900AC91CA /* MainStoryboard.storyboard */; };
+		44D6B0DA159E55B900AC91CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6B0D9159E55B900AC91CA /* ViewController.m */; };
+		44D6B0E2159E55B900AC91CA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D6B0E1159E55B900AC91CA /* SenTestingKit.framework */; };
+		44D6B0E3159E55B900AC91CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D6B0C3159E55B900AC91CA /* UIKit.framework */; };
+		44D6B0E4159E55B900AC91CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D6B0C5159E55B900AC91CA /* Foundation.framework */; };
+		44D6B0EC159E55B900AC91CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B0EA159E55B900AC91CA /* InfoPlist.strings */; };
+		44D6B0EF159E55B900AC91CA /* piano3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6B0EE159E55B900AC91CA /* piano3Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44D6B0E5159E55B900AC91CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44D6B0B6159E55B900AC91CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44D6B0BE159E55B900AC91CA;
+			remoteInfo = piano3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44D6B0BF159E55B900AC91CA /* piano3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piano3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D6B0C3159E55B900AC91CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44D6B0C5159E55B900AC91CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44D6B0C7159E55B900AC91CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44D6B0CB159E55B900AC91CA /* piano3-Info.plist */ = {isa = PBXFileReference; path = "piano3-Info.plist"; sourceTree = "<group>"; };
+		44D6B0CD159E55B900AC91CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44D6B0CF159E55B900AC91CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44D6B0D1159E55B900AC91CA /* piano3-Prefix.pch */ = {isa = PBXFileReference; path = "piano3-Prefix.pch"; sourceTree = "<group>"; };
+		44D6B0D2159E55B900AC91CA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		44D6B0D3159E55B900AC91CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44D6B0D6159E55B900AC91CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		44D6B0D8159E55B900AC91CA /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		44D6B0D9159E55B900AC91CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44D6B0E0159E55B900AC91CA /* piano3Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piano3Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D6B0E1159E55B900AC91CA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		44D6B0E9159E55B900AC91CA /* piano3Tests-Info.plist */ = {isa = PBXFileReference; path = "piano3Tests-Info.plist"; sourceTree = "<group>"; };
+		44D6B0EB159E55B900AC91CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44D6B0ED159E55B900AC91CA /* piano3Tests.h */ = {isa = PBXFileReference; path = piano3Tests.h; sourceTree = "<group>"; };
+		44D6B0EE159E55B900AC91CA /* piano3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = piano3Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44D6B0BC159E55B900AC91CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D6B0C4159E55B900AC91CA /* UIKit.framework in Frameworks */,
+				44D6B0C6159E55B900AC91CA /* Foundation.framework in Frameworks */,
+				44D6B0C8159E55B900AC91CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D6B0DC159E55B900AC91CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D6B0E2159E55B900AC91CA /* SenTestingKit.framework in Frameworks */,
+				44D6B0E3159E55B900AC91CA /* UIKit.framework in Frameworks */,
+				44D6B0E4159E55B900AC91CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44D6B0B4159E55B900AC91CA = {
+			isa = PBXGroup;
+			children = (
+				44D6B0C9159E55B900AC91CA /* piano3 */,
+				44D6B0E7159E55B900AC91CA /* piano3Tests */,
+				44D6B0C2159E55B900AC91CA /* Frameworks */,
+				44D6B0C0159E55B900AC91CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44D6B0C0159E55B900AC91CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44D6B0BF159E55B900AC91CA /* piano3.app */,
+				44D6B0E0159E55B900AC91CA /* piano3Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44D6B0C2159E55B900AC91CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D6B0C3159E55B900AC91CA /* UIKit.framework */,
+				44D6B0C5159E55B900AC91CA /* Foundation.framework */,
+				44D6B0C7159E55B900AC91CA /* CoreGraphics.framework */,
+				44D6B0E1159E55B900AC91CA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44D6B0C9159E55B900AC91CA /* piano3 */ = {
+			isa = PBXGroup;
+			children = (
+				44D6B0D2159E55B900AC91CA /* AppDelegate.h */,
+				44D6B0D3159E55B900AC91CA /* AppDelegate.m */,
+				44D6B0D5159E55B900AC91CA /* MainStoryboard.storyboard */,
+				44D6B0D8159E55B900AC91CA /* ViewController.h */,
+				44D6B0D9159E55B900AC91CA /* ViewController.m */,
+				44D6B0CA159E55B900AC91CA /* Supporting Files */,
+			);
+			path = piano3;
+			sourceTree = "<group>";
+		};
+		44D6B0CA159E55B900AC91CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44D6B0CB159E55B900AC91CA /* piano3-Info.plist */,
+				44D6B0CC159E55B900AC91CA /* InfoPlist.strings */,
+				44D6B0CF159E55B900AC91CA /* main.m */,
+				44D6B0D1159E55B900AC91CA /* piano3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44D6B0E7159E55B900AC91CA /* piano3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				44D6B0ED159E55B900AC91CA /* piano3Tests.h */,
+				44D6B0EE159E55B900AC91CA /* piano3Tests.m */,
+				44D6B0E8159E55B900AC91CA /* Supporting Files */,
+			);
+			path = piano3Tests;
+			sourceTree = "<group>";
+		};
+		44D6B0E8159E55B900AC91CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44D6B0E9159E55B900AC91CA /* piano3Tests-Info.plist */,
+				44D6B0EA159E55B900AC91CA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44D6B0BE159E55B900AC91CA /* piano3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D6B0F2159E55B900AC91CA /* Build configuration list for PBXNativeTarget "piano3" */;
+			buildPhases = (
+				44D6B0BB159E55B900AC91CA /* Sources */,
+				44D6B0BC159E55B900AC91CA /* Frameworks */,
+				44D6B0BD159E55B900AC91CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = piano3;
+			productName = piano3;
+			productReference = 44D6B0BF159E55B900AC91CA /* piano3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44D6B0DF159E55B900AC91CA /* piano3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D6B0F5159E55B900AC91CA /* Build configuration list for PBXNativeTarget "piano3Tests" */;
+			buildPhases = (
+				44D6B0DB159E55B900AC91CA /* Sources */,
+				44D6B0DC159E55B900AC91CA /* Frameworks */,
+				44D6B0DD159E55B900AC91CA /* Resources */,
+				44D6B0DE159E55B900AC91CA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44D6B0E6159E55B900AC91CA /* PBXTargetDependency */,
+			);
+			name = piano3Tests;
+			productName = piano3Tests;
+			productReference = 44D6B0E0159E55B900AC91CA /* piano3Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44D6B0B6159E55B900AC91CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 44D6B0B9159E55B900AC91CA /* Build configuration list for PBXProject "piano3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44D6B0B4159E55B900AC91CA;
+			productRefGroup = 44D6B0C0159E55B900AC91CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44D6B0BE159E55B900AC91CA /* piano3 */,
+				44D6B0DF159E55B900AC91CA /* piano3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44D6B0BD159E55B900AC91CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D6B0CE159E55B900AC91CA /* InfoPlist.strings in Resources */,
+				44D6B0D7159E55B900AC91CA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D6B0DD159E55B900AC91CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D6B0EC159E55B900AC91CA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44D6B0DE159E55B900AC91CA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44D6B0BB159E55B900AC91CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D6B0D0159E55B900AC91CA /* main.m in Sources */,
+				44D6B0D4159E55B900AC91CA /* AppDelegate.m in Sources */,
+				44D6B0DA159E55B900AC91CA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D6B0DB159E55B900AC91CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D6B0EF159E55B900AC91CA /* piano3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44D6B0E6159E55B900AC91CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44D6B0BE159E55B900AC91CA /* piano3 */;
+			targetProxy = 44D6B0E5159E55B900AC91CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44D6B0CC159E55B900AC91CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D6B0CD159E55B900AC91CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44D6B0D5159E55B900AC91CA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D6B0D6159E55B900AC91CA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		44D6B0EA159E55B900AC91CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D6B0EB159E55B900AC91CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44D6B0F0159E55B900AC91CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44D6B0F1159E55B900AC91CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44D6B0F3159E55B900AC91CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "piano3/piano3-Prefix.pch";
+				INFOPLIST_FILE = "piano3/piano3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44D6B0F4159E55B900AC91CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "piano3/piano3-Prefix.pch";
+				INFOPLIST_FILE = "piano3/piano3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		44D6B0F6159E55B900AC91CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/piano3.app/piano3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "piano3/piano3-Prefix.pch";
+				INFOPLIST_FILE = "piano3Tests/piano3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		44D6B0F7159E55B900AC91CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/piano3.app/piano3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "piano3/piano3-Prefix.pch";
+				INFOPLIST_FILE = "piano3Tests/piano3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44D6B0B9159E55B900AC91CA /* Build configuration list for PBXProject "piano3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D6B0F0159E55B900AC91CA /* Debug */,
+				44D6B0F1159E55B900AC91CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44D6B0F2159E55B900AC91CA /* Build configuration list for PBXNativeTarget "piano3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D6B0F3159E55B900AC91CA /* Debug */,
+				44D6B0F4159E55B900AC91CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44D6B0F5159E55B900AC91CA /* Build configuration list for PBXNativeTarget "piano3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D6B0F6159E55B900AC91CA /* Debug */,
+				44D6B0F7159E55B900AC91CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44D6B0B6159E55B900AC91CA /* Project object */;
+}
