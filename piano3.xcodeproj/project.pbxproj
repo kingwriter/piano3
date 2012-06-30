@@ -20,6 +20,23 @@
 		44D6B0E4159E55B900AC91CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D6B0C5159E55B900AC91CA /* Foundation.framework */; };
 		44D6B0EC159E55B900AC91CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B0EA159E55B900AC91CA /* InfoPlist.strings */; };
 		44D6B0EF159E55B900AC91CA /* piano3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6B0EE159E55B900AC91CA /* piano3Tests.m */; };
+		44D6B0F9159E567C00AC91CA /* wK.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B0F8159E567C00AC91CA /* wK.png */; };
+		44D6B0FB159E568700AC91CA /* bK.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B0FA159E568700AC91CA /* bK.png */; };
+		44D6B0FC159E569700AC91CA /* bK.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B0FA159E568700AC91CA /* bK.png */; };
+		44D6B10B159E58BC00AC91CA /* aisPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B0FE159E58BC00AC91CA /* aisPiano.wav */; };
+		44D6B10C159E58BC00AC91CA /* aPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B0FF159E58BC00AC91CA /* aPiano.wav */; };
+		44D6B10D159E58BC00AC91CA /* cisPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B100159E58BC00AC91CA /* cisPiano.wav */; };
+		44D6B10E159E58BC00AC91CA /* cPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B101159E58BC00AC91CA /* cPiano.wav */; };
+		44D6B10F159E58BC00AC91CA /* cTwoPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B102159E58BC00AC91CA /* cTwoPiano.wav */; };
+		44D6B110159E58BC00AC91CA /* disPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B103159E58BC00AC91CA /* disPiano.wav */; };
+		44D6B111159E58BC00AC91CA /* dPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B104159E58BC00AC91CA /* dPiano.wav */; };
+		44D6B112159E58BC00AC91CA /* ePiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B105159E58BC00AC91CA /* ePiano.wav */; };
+		44D6B113159E58BC00AC91CA /* fisPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B106159E58BC00AC91CA /* fisPiano.wav */; };
+		44D6B114159E58BC00AC91CA /* fPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B107159E58BC00AC91CA /* fPiano.wav */; };
+		44D6B115159E58BC00AC91CA /* gisPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B108159E58BC00AC91CA /* gisPiano.wav */; };
+		44D6B116159E58BC00AC91CA /* gPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B109159E58BC00AC91CA /* gPiano.wav */; };
+		44D6B117159E58BC00AC91CA /* hPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44D6B10A159E58BC00AC91CA /* hPiano.wav */; };
+		44D6B119159E5A0C00AC91CA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D6B118159E5A0C00AC91CA /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +54,38 @@
 		44D6B0C3159E55B900AC91CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		44D6B0C5159E55B900AC91CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D6B0C7159E55B900AC91CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		44D6B0CB159E55B900AC91CA /* piano3-Info.plist */ = {isa = PBXFileReference; path = "piano3-Info.plist"; sourceTree = "<group>"; };
+		44D6B0CB159E55B900AC91CA /* piano3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "piano3-Info.plist"; sourceTree = "<group>"; };
 		44D6B0CD159E55B900AC91CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44D6B0CF159E55B900AC91CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		44D6B0D1159E55B900AC91CA /* piano3-Prefix.pch */ = {isa = PBXFileReference; path = "piano3-Prefix.pch"; sourceTree = "<group>"; };
-		44D6B0D2159E55B900AC91CA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		44D6B0D1159E55B900AC91CA /* piano3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "piano3-Prefix.pch"; sourceTree = "<group>"; };
+		44D6B0D2159E55B900AC91CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44D6B0D3159E55B900AC91CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		44D6B0D6159E55B900AC91CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		44D6B0D8159E55B900AC91CA /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		44D6B0D8159E55B900AC91CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		44D6B0D9159E55B900AC91CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		44D6B0E0159E55B900AC91CA /* piano3Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piano3Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D6B0E1159E55B900AC91CA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		44D6B0E9159E55B900AC91CA /* piano3Tests-Info.plist */ = {isa = PBXFileReference; path = "piano3Tests-Info.plist"; sourceTree = "<group>"; };
+		44D6B0E9159E55B900AC91CA /* piano3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "piano3Tests-Info.plist"; sourceTree = "<group>"; };
 		44D6B0EB159E55B900AC91CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		44D6B0ED159E55B900AC91CA /* piano3Tests.h */ = {isa = PBXFileReference; path = piano3Tests.h; sourceTree = "<group>"; };
+		44D6B0ED159E55B900AC91CA /* piano3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = piano3Tests.h; sourceTree = "<group>"; };
 		44D6B0EE159E55B900AC91CA /* piano3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = piano3Tests.m; sourceTree = "<group>"; };
+		44D6B0F8159E567C00AC91CA /* wK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wK.png; path = "../../../../Downloads/iKeys Gafiken/wK.png"; sourceTree = "<group>"; };
+		44D6B0FA159E568700AC91CA /* bK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bK.png; path = "../../../../Downloads/iKeys Gafiken/bK.png"; sourceTree = "<group>"; };
+		44D6B0FE159E58BC00AC91CA /* aisPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = aisPiano.wav; sourceTree = "<group>"; };
+		44D6B0FF159E58BC00AC91CA /* aPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = aPiano.wav; sourceTree = "<group>"; };
+		44D6B100159E58BC00AC91CA /* cisPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cisPiano.wav; sourceTree = "<group>"; };
+		44D6B101159E58BC00AC91CA /* cPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cPiano.wav; sourceTree = "<group>"; };
+		44D6B102159E58BC00AC91CA /* cTwoPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cTwoPiano.wav; sourceTree = "<group>"; };
+		44D6B103159E58BC00AC91CA /* disPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = disPiano.wav; sourceTree = "<group>"; };
+		44D6B104159E58BC00AC91CA /* dPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dPiano.wav; sourceTree = "<group>"; };
+		44D6B105159E58BC00AC91CA /* ePiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ePiano.wav; sourceTree = "<group>"; };
+		44D6B106159E58BC00AC91CA /* fisPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fisPiano.wav; sourceTree = "<group>"; };
+		44D6B107159E58BC00AC91CA /* fPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fPiano.wav; sourceTree = "<group>"; };
+		44D6B108159E58BC00AC91CA /* gisPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gisPiano.wav; sourceTree = "<group>"; };
+		44D6B109159E58BC00AC91CA /* gPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gPiano.wav; sourceTree = "<group>"; };
+		44D6B10A159E58BC00AC91CA /* hPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hPiano.wav; sourceTree = "<group>"; };
+		44D6B118159E5A0C00AC91CA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		44D6B11A159E5A2900AC91CA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D6B119159E5A0C00AC91CA /* AudioToolbox.framework in Frameworks */,
 				44D6B0C4159E55B900AC91CA /* UIKit.framework in Frameworks */,
 				44D6B0C6159E55B900AC91CA /* Foundation.framework in Frameworks */,
 				44D6B0C8159E55B900AC91CA /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +116,7 @@
 		44D6B0B4159E55B900AC91CA = {
 			isa = PBXGroup;
 			children = (
+				44D6B118159E5A0C00AC91CA /* AudioToolbox.framework */,
 				44D6B0C9159E55B900AC91CA /* piano3 */,
 				44D6B0E7159E55B900AC91CA /* piano3Tests */,
 				44D6B0C2159E55B900AC91CA /* Frameworks */,
@@ -100,6 +136,7 @@
 		44D6B0C2159E55B900AC91CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44D6B11A159E5A2900AC91CA /* AudioToolbox.framework */,
 				44D6B0C3159E55B900AC91CA /* UIKit.framework */,
 				44D6B0C5159E55B900AC91CA /* Foundation.framework */,
 				44D6B0C7159E55B900AC91CA /* CoreGraphics.framework */,
@@ -111,11 +148,14 @@
 		44D6B0C9159E55B900AC91CA /* piano3 */ = {
 			isa = PBXGroup;
 			children = (
+				44D6B0FD159E58BC00AC91CA /* audioPiano */,
 				44D6B0D2159E55B900AC91CA /* AppDelegate.h */,
 				44D6B0D3159E55B900AC91CA /* AppDelegate.m */,
 				44D6B0D5159E55B900AC91CA /* MainStoryboard.storyboard */,
 				44D6B0D8159E55B900AC91CA /* ViewController.h */,
 				44D6B0D9159E55B900AC91CA /* ViewController.m */,
+				44D6B0FA159E568700AC91CA /* bK.png */,
+				44D6B0F8159E567C00AC91CA /* wK.png */,
 				44D6B0CA159E55B900AC91CA /* Supporting Files */,
 			);
 			path = piano3;
@@ -149,6 +189,27 @@
 				44D6B0EA159E55B900AC91CA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44D6B0FD159E58BC00AC91CA /* audioPiano */ = {
+			isa = PBXGroup;
+			children = (
+				44D6B0FE159E58BC00AC91CA /* aisPiano.wav */,
+				44D6B0FF159E58BC00AC91CA /* aPiano.wav */,
+				44D6B100159E58BC00AC91CA /* cisPiano.wav */,
+				44D6B101159E58BC00AC91CA /* cPiano.wav */,
+				44D6B102159E58BC00AC91CA /* cTwoPiano.wav */,
+				44D6B103159E58BC00AC91CA /* disPiano.wav */,
+				44D6B104159E58BC00AC91CA /* dPiano.wav */,
+				44D6B105159E58BC00AC91CA /* ePiano.wav */,
+				44D6B106159E58BC00AC91CA /* fisPiano.wav */,
+				44D6B107159E58BC00AC91CA /* fPiano.wav */,
+				44D6B108159E58BC00AC91CA /* gisPiano.wav */,
+				44D6B109159E58BC00AC91CA /* gPiano.wav */,
+				44D6B10A159E58BC00AC91CA /* hPiano.wav */,
+			);
+			name = audioPiano;
+			path = ../../../../Downloads/Audio/audioPiano;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +284,21 @@
 			files = (
 				44D6B0CE159E55B900AC91CA /* InfoPlist.strings in Resources */,
 				44D6B0D7159E55B900AC91CA /* MainStoryboard.storyboard in Resources */,
+				44D6B0F9159E567C00AC91CA /* wK.png in Resources */,
+				44D6B0FB159E568700AC91CA /* bK.png in Resources */,
+				44D6B10B159E58BC00AC91CA /* aisPiano.wav in Resources */,
+				44D6B10C159E58BC00AC91CA /* aPiano.wav in Resources */,
+				44D6B10D159E58BC00AC91CA /* cisPiano.wav in Resources */,
+				44D6B10E159E58BC00AC91CA /* cPiano.wav in Resources */,
+				44D6B10F159E58BC00AC91CA /* cTwoPiano.wav in Resources */,
+				44D6B110159E58BC00AC91CA /* disPiano.wav in Resources */,
+				44D6B111159E58BC00AC91CA /* dPiano.wav in Resources */,
+				44D6B112159E58BC00AC91CA /* ePiano.wav in Resources */,
+				44D6B113159E58BC00AC91CA /* fisPiano.wav in Resources */,
+				44D6B114159E58BC00AC91CA /* fPiano.wav in Resources */,
+				44D6B115159E58BC00AC91CA /* gisPiano.wav in Resources */,
+				44D6B116159E58BC00AC91CA /* gPiano.wav in Resources */,
+				44D6B117159E58BC00AC91CA /* hPiano.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44D6B0EC159E55B900AC91CA /* InfoPlist.strings in Resources */,
+				44D6B0FC159E569700AC91CA /* bK.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +506,7 @@
 				44D6B0F4159E55B900AC91CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44D6B0F5159E55B900AC91CA /* Build configuration list for PBXNativeTarget "piano3Tests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +515,7 @@
 				44D6B0F7159E55B900AC91CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
